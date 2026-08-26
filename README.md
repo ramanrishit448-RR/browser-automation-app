@@ -44,48 +44,6 @@
 
 ---
 
-## Tutorial
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=1hnyCQW-B4A"><img src="https://img.shields.io/badge/YouTube-Watch_the_full_tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch the full tutorial on YouTube" /></a>
-</p>
-
-Each chapter has a matching branch so you can check out the code at any point in the tutorial:
-
-| Branch | Chapter |
-|--------|---------|
-| `main` | Final project |
-| `chapter-02-agentic-coding-setup` | Agentic coding setup |
-| `chapter-03-auth-setup` | Clerk authentication setup |
-| `chapter-04-organizations-setup` | Clerk organizations setup |
-| `chapter-05-dashboard-layout` | Dashboard layout |
-| `chapter-06-database-setup` | Neon and Drizzle database setup |
-| `chapter-07-workflow-page` | Workflow page |
-| `chapter-08-trigger-dev-setup` | Trigger.dev setup |
-| `chapter-09-canvas-setup` | React Flow canvas setup |
-| `chapter-10-custom-nodes` | Custom workflow nodes |
-| `chapter-11-liveblocks-setup` | Liveblocks collaboration setup |
-| `chapter-12-liveblocks-auth` | Liveblocks authentication |
-| `chapter-13-names-and-avatars` | Collaborator names and avatars |
-| `chapter-14-workflow-toolbar` | Workflow toolbar |
-| `chapter-15-workflow-execution` | Workflow execution |
-| `chapter-16-browserbase-setup` | Browserbase and Stagehand setup |
-| `chapter-17-data-passthrough` | Data passthrough between nodes |
-| `chapter-18-live-run-status` | Live workflow run status |
-| `chapter-19-remaining-nodes` | Additional browser nodes |
-| `chapter-20-email-node` | Resend email node |
-| `chapter-21-console-panel` | Run console panel |
-| `chapter-22-session-replay` | Browserbase session replay |
-| `chapter-23-billing` | Clerk Billing and Pro features |
-| `chapter-24-sentry-setup` | Sentry monitoring setup |
-| `chapter-25-polish` | Final product polish |
-
-```bash
-git checkout chapter-16-browserbase-setup  # example: jump to Browserbase setup
-```
-
----
-
 ## Features
 
 <table>
