@@ -336,22 +336,7 @@ lib/
 
 ---
 
-## Scripts
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start the Next.js development server |
-| `npm run build` | Create a production build |
-| `npm start` | Start the production server |
-| `npm run lint` | Run ESLint |
-| `npm run format` | Format TypeScript and TSX files with Prettier |
-| `npm run typecheck` | Run TypeScript without emitting files |
-| `npm run db:generate` | Generate Drizzle migrations |
-| `npm run db:migrate` | Apply Drizzle migrations |
-| `npm run db:push` | Push the Drizzle schema directly to the database |
-| `npm run db:studio` | Open Drizzle Studio |
-
-<br />
 
 ## Stack
 
