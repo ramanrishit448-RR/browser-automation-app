@@ -20,7 +20,7 @@ interface WorkflowRunsProviderProps {
   workflowId: string
   // A Public Access Token scoped to read this workflow's runs, minted on the
   // server (auth.createPublicToken) and handed down as a prop.
-  accessToken: string
+  accessToken?: string
   children: React.ReactNode
 }
 
@@ -34,7 +34,7 @@ export function WorkflowRunsProvider({
 }: WorkflowRunsProviderProps) {
   const { runs, error } = useRealtimeRunsWithTag<typeof runWorkflowTask>(
     `workflow:${workflowId}`,
-    { accessToken }
+    { accessToken, enabled: Boolean(accessToken) }
   )
 
   const value = useMemo<WorkflowRunsContextValue>(
