@@ -117,6 +117,10 @@
 - [Resend](https://resend.com/) account
 - Optional [Sentry](https://cwa.run/sentry) project for error monitoring and source maps
 
+> Read Setup Folder for more information on how to setup the project.
+
+**OR**
+
 ### 1. Clone and install
 
 ```bash
