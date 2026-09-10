@@ -20,7 +20,6 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { ResizablePanel } from "@/components/ui/resizable"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Textarea } from "@/components/ui/textarea"
 
@@ -428,13 +427,7 @@ export function RightSidebar({ workflowId }: { workflowId: string }) {
   }
 
   return (
-    <ResizablePanel
-      className="bg-background"
-      defaultSize="16rem"
-      minSize="14rem"
-      maxSize="36rem"
-      groupResizeBehavior="preserve-pixel-size"
-    >
+    <div className="flex size-full flex-col bg-background">
       <Tabs value={tab} onValueChange={setTab} className="size-full gap-0">
         <div className="flex items-center justify-between border-b border-border p-2">
           <ActionsMenu workflowId={workflowId} />
@@ -461,6 +454,6 @@ export function RightSidebar({ workflowId }: { workflowId: string }) {
           <Inspector key={selected?.id} node={selected} />
         </TabsContent>
       </Tabs>
-    </ResizablePanel>
+    </div>
   )
 }
