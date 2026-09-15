@@ -1,8 +1,6 @@
 <div align="center">
-
 <br />
 <br />
-
 <h1>Browser Automation SaaS</h1>
 
 <p><strong>Design in real time. Execute in cloud browsers. Replay every run.</strong></p>
